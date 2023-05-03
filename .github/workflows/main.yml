@@ -22,7 +22,7 @@ jobs:
 
       # 生成静态文件
       - name: Build
-        run: export NODE_OPTIONS=--openssl-legacy-provider && npm install && npm run dev
+        run: export NODE_OPTIONS=--openssl-legacy-provider && npm install && npm run build
 
       # 部署到 GitHub Pages
       - name: Deploy

@@ -26,6 +26,18 @@ module.exports = {
                 title: '海南大学RM共享平台',
                 children: ['/周报/视觉组周报/视觉组-林世鹏-第1周'],
                 initialOpenGroupIndex: 1,
+            },{
+                title: '视觉组周报',
+                children: ['/周报/视觉组周报/视觉组-林世鹏-第1周'],
+                initialOpenGroupIndex: 1,
+            },{
+                title: '电控组周报',
+                children: ['/周报/电控组周报/电控组-褚仕成-第1周'],
+                initialOpenGroupIndex: 1,
+            },{
+                title: '机械组周报',
+                children: ['/周报/机械组周报/机械组-王民爽-第1周'],
+                initialOpenGroupIndex: 1,
             }
         ]
     },

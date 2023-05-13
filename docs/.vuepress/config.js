@@ -5,11 +5,26 @@ module.exports = {
     markdown: {
         lineNumbers: true,
     },
-    themeConfig: {
-        sidebar: [
+    themeConfig: { // 主题设置
+        nav: [ // 导航栏
+            {
+                text: '首页',
+                link: '/'
+            },{
+                text: '视觉组周报',
+                link: '/周报/视觉组周报/'
+            },{
+                text: '电控组周报',
+                link: '/周报/电控组周报/'
+            },{
+                text: '机械组周报',
+                link: '/周报/机械组周报/'
+            }
+        ],
+        sidebar: [ // 侧边栏
             {
                 title: '海南大学RM共享平台',
-                children: ['/视觉组周报/视觉组-林世鹏-第1周'],
+                children: ['/周报/视觉组周报/视觉组-林世鹏-第1周'],
                 initialOpenGroupIndex: 1,
             }
         ]

@@ -24,6 +24,13 @@ module.exports = {
                     { text: '电控组知识库', link: '/知识库/电控组知识库/' },
                     { text: '机械组知识库', link: '/知识库/机械组知识库/' },
                 ]
+            },{
+                text: '共享文档',
+                items: [
+                    { text: '每周工作安排', link: 'https://docs.qq.com/sheet/DR2RLYm9SeXNudFJn?tab=BB08J2' },
+                    { text: '招新培训工作安排', link: 'https://docs.qq.com/sheet/DR3Z2TWpDbVVkRXFF?tab=BB08J2' },
+                    { text: '预采购清单', link: 'https://docs.qq.com/sheet/DR0JHVVJDRm5BS29F?tab=znt8dm' }
+                    ]
             }
         ],
         sidebar: [ // 侧边栏

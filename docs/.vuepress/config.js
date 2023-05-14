@@ -1,7 +1,7 @@
 module.exports = {
     title: "海南大学RM共享平台",
     description: "该网站用于海南大学RoboMaster战队作为共享知识库",
-    base: "/blog/",
+    base: "/",
     markdown: {
         lineNumbers: true,
     },
